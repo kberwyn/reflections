@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing a git repository by running git init command creates a .git repository inside the current directory. You need this repository in order to save commits. git status displays the status of current repositories. This is especially helpful when no commits have been made and git log throws an error. git status will show that there is no commit history and all untracked files. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is basically a holding area for files which will be committed to the repository next time a git commit is run. This allows you to hold files from the working directory in a distinct "area" apart from files which will not be committed, without having to physically create a new directory in order to separate them.
