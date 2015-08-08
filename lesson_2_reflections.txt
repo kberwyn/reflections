@@ -3,3 +3,6 @@ Initializing a git repository by running git init command creates a .git reposit
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is basically a holding area for files which will be committed to the repository next time a git commit is run. This allows you to hold files from the working directory in a distinct "area" apart from files which will not be committed, without having to physically create a new directory in order to separate them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can run git diff with no arguements to view the differences between working directory and staging area. This can help you ensure that you will only commit changes to a file or files which are logically related, and not any other chanages which may be in the working directory. Additionally, you can run git diff --staged to compare the staged changes with the previous commit in order to determine whether you will be committing too many logically disparate changes as compared to the previous commit.
