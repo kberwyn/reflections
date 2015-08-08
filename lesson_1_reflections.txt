@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I was able to visually compare the differences between the two versions of the file. This allowed me to manually scroll through the differences and spot the typo.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+I can keep a log of all the changes made to a file and determine at which point the file stopped working the way I'd like.This allows me to determine what changes caused the decrease in performance and how I can improve it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: If large changes occur in small time period, manually saving the differences allows for more worry-free changes to occur; don't have to worry about when the changes will be saved. 
+Cons: more room for user error--if I forget to make a commit and then lose power to the computer or something then I may lose a large amount of important changes and be unable to recreate them correctly.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+VCS with multiple files per commit takes into account the fact that the files may be interrelated and that the changes would likely be useful to view together. VCS without multiple files per commit do not take this into account and therefore it's possible that changes in one file which affect all corresponding files could be missed if the versions of each file aren't saved together.
+
+How can you use the commands git log and git diff to view the history of files?
+git log allows you to search the git repository's log using up and down arrows to view all commits in a repository. once the commit you aere interested in is found, this commit id can be copied (using double left click to select id and then right click to copy and finally right click in open command to paste). q to quit git log. git diff first_id(old) second_id(new) (right click to copy and paste ids) allows you to see differences between ids. should be in color: red means subtracted and green means added. if not, there is git config --global command in order to change to colors. search for this global command if something has happened and it is no longer in color.
+
+How might using version control make you more confident to make changes that could break something?
+You can be more confident because you know that if you break something, you can pretty easily go back to a working commit and find the diff between the two. This will allow you to examine why a particular change may have had an unintended consequence.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I just want to learn the basics for now. Eventually I'd like to be able to post repositories on GitHub to work as a portfolio for various side projects in order to showcase my work. Additionally, I'll be able to get user feedback and view changes to see corrections and improvements.
