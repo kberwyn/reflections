@@ -9,3 +9,6 @@ you can run git diff with no arguements to view the differences between working 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches can help keep history organized if experimental changes are to applied, or if changes with unknown results are made. This allows you to view how the chnages affect the project without the potential to break the project, and can be merged later. Additionally, if you want to add separate modes like a game "easy mode" or another language display, branches make this much easier and keep the project nicely organized. 
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are a good way to describe the branch structure in a linear fashion with structural branches which helps to visualize when and where branches occur, and why some commits may not be visible due to the branch structure. If a change is applied and committed to a branch while not working at the current HEAD, it may be impossible to see this commit later via git log. For this reason diagrams assist with visualizing how master branches split and where to make and committ changes. 
