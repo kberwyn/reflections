@@ -6,3 +6,6 @@ Staging area is basically a holding area for files which will be committed to th
 
 How can you use the staging area to make sure you have one commit per logical change?
 you can run git diff with no arguements to view the differences between working directory and staging area. This can help you ensure that you will only commit changes to a file or files which are logically related, and not any other chanages which may be in the working directory. Additionally, you can run git diff --staged to compare the staged changes with the previous commit in order to determine whether you will be committing too many logically disparate changes as compared to the previous commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can help keep history organized if experimental changes are to applied, or if changes with unknown results are made. This allows you to view how the chnages affect the project without the potential to break the project, and can be merged later. Additionally, if you want to add separate modes like a game "easy mode" or another language display, branches make this much easier and keep the project nicely organized. 
