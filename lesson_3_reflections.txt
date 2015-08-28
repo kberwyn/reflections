@@ -9,3 +9,6 @@ Forks are used to make changes to other peoples' repositories without actually c
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Traceability; having a copy of a known state allows visual identification (mostly easily through git diff or git status) of the point of divergence in an updated repository to see where and why changes occured and to allow evaluation of these changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would have to use email or some other form of communication to discuss with my collaborator about changes. This may make communication easier, as we'd be able to reach more clarity. However, it may be harder to visually inspect differences unless we literally worked side by side at every step of the way, and may have to transfer large files back and forth. Git and Github allow this to be automated to a certain degree and provides better UX for changes.
