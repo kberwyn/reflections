@@ -12,3 +12,6 @@ Traceability; having a copy of a known state allows visual identification (mostl
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would have to use email or some other form of communication to discuss with my collaborator about changes. This may make communication easier, as we'd be able to reach more clarity. However, it may be harder to visually inspect differences unless we literally worked side by side at every step of the way, and may have to transfer large files back and forth. Git and Github allow this to be automated to a certain degree and provides better UX for changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I would use a separate branch to make changes when I want to add a feature or make a change that may alter the project performance in some way. By using a separate branch, the differences can clearly be seen in a pull request and the branch can be named based on the change I want to make. However, it makes the process more complicated because the branch must eventually be merged into master via git pull. If there are several branches, this can cause merge conflicts. 
