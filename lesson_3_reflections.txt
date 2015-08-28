@@ -6,3 +6,6 @@ In case other contributors make changes that you don't necessarily want/ agree w
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks are used to make changes to other peoples' repositories without actually changing their copy: basically, a clone is made into my repository wherein I can make changes without affecting the author's version. Clones are copies of git repositories, often made from a remote repository into a local system, but it is also possible to clone locally. Branches are local offshoots from master which allow for new features to be tested, for example. See lesson 2 reflections for more details on branches.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Traceability; having a copy of a known state allows visual identification (mostly easily through git diff or git status) of the point of divergence in an updated repository to see where and why changes occured and to allow evaluation of these changes.
